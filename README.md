@@ -17,6 +17,11 @@ Then start geiser with `geiser-connect` with `localhost` and the port in the
 script file, or change these values if you're doing SSH tunneling.
 
 
-## Swank-server usage
+## Swankish-server usage
 
-TODO
+A chibi-scheme swank-like server for geiser. Try the example:
+
+```
+$ chibi-scheme -I/home/risto/.emacs.d/elpa/geiser-chibi-20240521.2252/src/geiser/
+-m geiser swankish-example.scm
+```
